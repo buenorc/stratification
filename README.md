@@ -7,7 +7,7 @@
 
 The algorithm requires as input data the following information:  
 
-1) pair of integers related to the number of grid points in m- and n- direction (same integer name specified in mdf file)  
+1) the number of grid points in m- and n- direction (same pair of integer name specified in mdf file)  
 2) a text file indicating the profile of each activated constituent (profile must be specified from bottom to surface)
 
 The program generates an output file, ***stratification.ini***, that can be used in the Delft3D model. 
@@ -21,5 +21,26 @@ To run the code, the user must have installed the following packages in a Python
 1) Numpy
 2) Tkinter (for the GUI)
 
-To install Python, the 
+
+----- How to install Python and run the script above ------
+
+The steps below describes the installation instruction to install Anaconda, which is the simplest way to run the codes in a Python interpreter. 
+
+1) Go to Anaconda website (https://www.anaconda.com/) and find the option for Anaconda distribution;
+2) Choose the Python 3.x graphical installer version (note that there are three options for operating system:
+Windows, macOS, and Linux);
+3) Install the Anaconda interpreter;
+
+
+* Nitime (0.7 or compatible): conda install -c conda-forge nitime
+* Reportlab (3.5 or compatible): conda install -c anaconda reportlab
+
+**Attention:** If you already have anaconda installed in your computer, make sure that the above packages
+are installed and the anaconda version has Python 3.X. If you use another interpreter, make sure that the
+following packages are installed in the your python interpreter: Numpy 1.16.3 and tk (tkinter) 8.6.8, or compatibles versions.
+
+4) After the installation of a python interpreter, download both scripts (stratification.py and stratification-gui.py) from this repository;
+5) Put everything in the same folder and run the script called stratification-gui.py;
+6) A graphical user interface (GUI) should be launched in seconds;
+
 
