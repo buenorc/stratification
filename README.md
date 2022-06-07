@@ -5,7 +5,7 @@
 
 ## Create an initial vertical profile of constituents (e.g., temperature, salinity, pollutants and tracers) to use as data input for Delft3d numerical model  
 
-### This program in the current stage only works to create a temperature stratification; further tests must be conducted to check if it works for other constituents too. 
+- In the current stage, this program has been tested only to create a temperature stratification profile; further tests must be conducted to check if it works for other constituents too. 
 
 The algorithm requires as input data the following information:  
 
